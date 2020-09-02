@@ -36,6 +36,7 @@ describe('Testing Add to cart functionality', () => {
     })
   });
 
+
   after('Delete created product', () => {
     cy.request({
       method: 'DELETE',
@@ -50,6 +51,7 @@ describe('Testing Add to cart functionality', () => {
         expect(response.status).to.equal(200)
       })
   });
+
 
   it("Product is displayed with correct name and price", () => {
 
@@ -67,6 +69,7 @@ describe('Testing Add to cart functionality', () => {
       .should('include.text', productDisplayedPrice)
   });
 
+
   it('Product quantity can be increased', () => {
 
     cy.get('.quantity > .input-text')
@@ -77,6 +80,7 @@ describe('Testing Add to cart functionality', () => {
       .should('have.value', productQuantity)
 
   });
+
 
   it('Product can be added to cart', () => {
 
