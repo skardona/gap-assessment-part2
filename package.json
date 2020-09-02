@@ -1,0 +1,23 @@
+{
+  "name": "gap-assessment-part2",
+  "version": "1.0.0",
+  "description": "Cypress framework for assessment",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^5.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skardona/gap-assessment-part2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skardona/gap-assessment-part2/issues"
+  },
+  "homepage": "https://github.com/skardona/gap-assessment-part2#readme"
+}
